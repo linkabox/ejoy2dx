@@ -64,6 +64,9 @@
     <Filter Include="ejoy2dx\lsocket">
       <UniqueIdentifier>{c51f00e6-7e80-45c5-98a0-c5f8188ddc2c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ejoy2dx\luasocket">
+      <UniqueIdentifier>{36a76156-e874-4eb8-b9ac-52c5dfc9fd69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\ejoy2d\lib\array.h">
@@ -287,6 +290,48 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\src\clib\platform\platform_win.h">
       <Filter>ejoy2dx\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\auxiliar.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\buffer.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\except.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\inet.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\io.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\luasocket.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\mime.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\options.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\select.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\socket.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\tcp.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\timeout.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\udp.h">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\clib\luasocket\wsocket.h">
+      <Filter>ejoy2dx\luasocket</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -541,6 +586,45 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\src\clib\lsocket\lsocket_old.c">
       <Filter>ejoy2dx\lsocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\auxiliar.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\buffer.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\except.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\inet.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\io.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\luasocket.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\mime.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\options.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\select.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\tcp.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\timeout.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\udp.c">
+      <Filter>ejoy2dx\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\clib\luasocket\wsocket.c">
+      <Filter>ejoy2dx\luasocket</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
